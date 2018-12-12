@@ -4,11 +4,7 @@
       <div class="center">AWX</div>
     </v-ons-toolbar>
 
-    <p style="text-align: center">
-      <v-ons-button @click="$ons.notification.alert('Hello World!')">
-        Click me!
-      </v-ons-button>
-    </p>
+    <v-ons-button modifier="large" style="margin: 6px 0">Sign In With Spotify</v-ons-button>
   </v-ons-page>
   <!--
      <body>
@@ -17,7 +13,7 @@
             <div class=”center”>Toolbar</div>
           </ons-toolbar>
 
-          <!-- Your page content here.
+          ~~ Your page content here.
 
         </ons-page>
       </body>
